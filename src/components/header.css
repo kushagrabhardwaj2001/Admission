@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+
+.sticky-header {
+  background-color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  margin-bottom: 1px;
+}
+
+
+.header-up{
+    width:'100vw';
+    height:'7vh';
+    
+    
+}
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+/* SearchBar.css */
+.search-bar {
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    background-color:#91D8F5;
+    border-radius: 25px;
+    padding: 8px;
+    width:30vw;
+    height: 7vh;
+    margin-left: 22vw;
+  }
+  
+  .search-input {
+
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color:#91D8F5;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon {
+    color: Black;
+    font-size: 1.2rem;
+  }
+  .header-element{
+    cursor:pointer;
+    font-weight: 200;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}

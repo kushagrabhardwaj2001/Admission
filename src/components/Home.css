@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+
+.container1{
+    background-image: url('../Rectangle\ 13.png');
+    background-size: cover;
+  background-position: center;
+}
+
+.container2{
+    background-image: url('./map-bg.png');
+    background-size: cover;
+  background-position: center;
+}
+
+select {
+  width: 28vw;
+  height: 10vh;
+  padding: 20px;
+ 
+  
+  background-color:white;
+  margin-right: 4vw;
+  border-radius:12px;
+  
+}
+
+
+
+/* Style the dropdown when it's open */
+select:focus {
+  outline: none; /* Remove the default focus outline */
+  
+}
+
+.banner{
+  background-image: url('./bannerimg.jpg');
+    background-size: cover;
+  background-position: center;
+  
+}
+
+.container12{
+  background-image: url('./Pacific\ Medical\ College\ &\ Hospital\ Bhilo\ Ka\ Bedla\ Udaipur.jpg-80509.jpg');
+    background-size: cover;
+  background-position: center;
+  
+}
+.container13{
+  background-image: url('./School\ of\ Medical\ Sciences\ and\ Research\ Sharda\ University.jpg-63768.jpg');
+    background-size: cover;
+  background-position: center;
+  
+}
+.container14{
+  background-image: url('./Pushpagiri\ Institute\ Of\ Medical\ Sciences\ and\ Research\ Centre\ Tiruvalla.jpg-27149.jpg');
+    background-size: cover;
+  background-position: center;
+  
+}
+.container15{
+  background-image: url('./Shri\ Ramkrishna\ Institute\ of\ Medical\ Sciences\ &\ Sanaka\ Hospitals\ Durgapur.jpg-21979.jpg');
+    background-size: cover;
+  background-position: center;
+  
+}
+.container18{
+  background-image: url('./blog-1.jpg');
+    background-size: cover;
+  background-position: center;
+  
+}
+
+.container19{
+  background-image: url('./istockphoto-1340766096-612x612.jpg');
+    background-size: cover;
+  background-position: center;
+  
+}
+
+
+
+.container20{
+  background-image: url('./istockphoto-1447889800-170667a.webp');
+    background-size: cover;
+  background-position: center;
+  
+}
+.search-bars2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4vh;
+}
+
+.search-bar2 {
+  height: 5vh;
+  width:40vw;
+  padding: 10px;
+  margin: 10px;
+  font-size: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none; /* Remove default outline */
+  
+}
+
+.search-bar3 {
+  height: 12vh;
+  width:40vw;
+  padding: 10px;
+  margin: 10px;
+  font-size: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none; /* Remove default outline */
+  
+}
